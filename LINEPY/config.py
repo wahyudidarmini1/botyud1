@@ -37,4 +37,4 @@ class Config(object):
 
     def __init__(self):
         self.APP_NAME = '%s\t%s\t%s\t%s' % (self.APP_TYPE, self.APP_VER, self.SYSTEM_NAME, self.SYSTEM_VER)
-        self.USER_AGENT = 'Line/%s' % self.APP_VER
+        self.USER_AGENT = 'Line/1.4.17'
